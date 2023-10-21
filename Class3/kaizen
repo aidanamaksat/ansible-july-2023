@@ -1,0 +1,2 @@
+wordpress ansible_host=161.35.128.210
+wordpress2 ansible_host=161.35.129.78

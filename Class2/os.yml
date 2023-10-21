@@ -1,0 +1,7 @@
+- hosts: all
+  tasks:
+    - name: Display OS
+      debug:
+        msg: "OS is: {{ ansible_distribution }}"
+   -name: Print OS
+      include_tasks: "{{ ansible_distribution }}.yml"

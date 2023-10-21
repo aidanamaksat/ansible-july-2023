@@ -1,0 +1,7 @@
+-debug:
+    msg: "Hello from Ubuntu"
+-name: Install apache
+ apt:
+    name: apache2
+    state: present
+    update_cache: yes
